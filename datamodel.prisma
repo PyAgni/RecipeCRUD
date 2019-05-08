@@ -1,0 +1,9 @@
+type Recipe {
+  id: ID! @unique @id
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  title: String! @unique
+  ingredients: String!
+  directions: String!
+  published: Boolean!
+}
